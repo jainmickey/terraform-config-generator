@@ -14,3 +14,9 @@ It includes following resources for now:
 To run, configure your AWS provider as described in 
 
 https://www.terraform.io/docs/providers/aws/index.html
+
+### To generate the configuration run:
+
+```bash
+python generate_dev_terraform.py
+```
