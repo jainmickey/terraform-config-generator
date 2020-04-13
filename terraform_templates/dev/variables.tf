@@ -24,6 +24,6 @@ variable "aws_bucket" {
 # Ubuntu 16 LTS (x64)
 variable "aws_amis" {
   default = {
-    ap-south-1 = "ami-099fe766"
+    ap-south-1 = "ami-07ebfd5b3428b6f4d"
   }
 }

@@ -1,9 +1,11 @@
 provider "aws" {
   region = "${var.aws_region}"
+  version = "~> 1.0"
 }
 
 # Configure the Cloudflare provider
 provider "cloudflare" {
+  version = "~> 1.0"
   # email = "${var.cloudflare_email}"
   # token = "${var.cloudflare_token}"
 }
